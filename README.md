@@ -40,7 +40,7 @@ module "iosxe" {
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.8.0 |
-| <a name="requirement_iosxe"></a> [iosxe](#requirement\_iosxe) | >= 0.5.10 |
+| <a name="requirement_iosxe"></a> [iosxe](#requirement\_iosxe) | >= 0.6.1 |
 | <a name="requirement_local"></a> [local](#requirement\_local) | >= 2.3.0 |
 | <a name="requirement_utils"></a> [utils](#requirement\_utils) | >= 1.0.1 |
 ## Inputs
@@ -98,6 +98,7 @@ module "iosxe" {
 | [iosxe_crypto_ikev2_proposal.crypto_ikev2_proposal](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/crypto_ikev2_proposal) | resource |
 | [iosxe_crypto_ipsec_profile.crypto_ipsec_profile](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/crypto_ipsec_profile) | resource |
 | [iosxe_crypto_ipsec_transform_set.crypto_ipsec_transform_set](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/crypto_ipsec_transform_set) | resource |
+| [iosxe_cts.cts](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/cts) | resource |
 | [iosxe_dhcp.dhcp](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/dhcp) | resource |
 | [iosxe_dot1x.dot1x](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/dot1x) | resource |
 | [iosxe_errdisable.errdisable](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/errdisable) | resource |
@@ -129,8 +130,10 @@ module "iosxe" {
 | [iosxe_logging_ipv4_host_vrf_transport.logging_ipv4_host_vrf_transport](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/logging_ipv4_host_vrf_transport) | resource |
 | [iosxe_logging_ipv6_host_transport.logging_ipv6_host_transport](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/logging_ipv6_host_transport) | resource |
 | [iosxe_logging_ipv6_host_vrf_transport.logging_ipv6_host_vrf_transport](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/logging_ipv6_host_vrf_transport) | resource |
+| [iosxe_mdt_subscription.mdt_subscriptions](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/mdt_subscription) | resource |
 | [iosxe_msdp.msdp](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/msdp) | resource |
 | [iosxe_msdp_vrf.msdp_vrf](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/msdp_vrf) | resource |
+| [iosxe_ntp.ntp](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/ntp) | resource |
 | [iosxe_pim.pim](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/pim) | resource |
 | [iosxe_prefix_list.prefix_list](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/prefix_list) | resource |
 | [iosxe_radius.radius](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/radius) | resource |
@@ -147,6 +150,11 @@ module "iosxe" {
 | [iosxe_tacacs_server.tacacs_server](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/tacacs_server) | resource |
 | [iosxe_template.template](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/template) | resource |
 | [iosxe_udld.udld](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/udld) | resource |
+| [iosxe_vlan.vlan](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/vlan) | resource |
+| [iosxe_vlan_access_map.vlan_access_maps](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/vlan_access_map) | resource |
+| [iosxe_vlan_configuration.vlan_vn_config](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/vlan_configuration) | resource |
+| [iosxe_vlan_filter.vlan_filter](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/vlan_filter) | resource |
+| [iosxe_vlan_group.vlan_group](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/vlan_group) | resource |
 | [iosxe_vtp.vtp](https://registry.terraform.io/providers/CiscoDevNet/iosxe/latest/docs/resources/vtp) | resource |
 ## Modules
 
